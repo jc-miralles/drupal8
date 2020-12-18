@@ -8,7 +8,7 @@ git pull origin master
 composer install --no-dev
 
 #Mettre à jour la BD
-drush udb -y
+drush updb -y
 
 #Export des configs de prod
 drush csex prod -y
