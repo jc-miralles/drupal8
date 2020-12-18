@@ -1,0 +1,4 @@
+services:
+  jc_frm.lazy_builders:
+    class: Drupal\jc_frm\LazyBuildersService
+    arguments: []

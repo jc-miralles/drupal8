@@ -1,0 +1,8 @@
+jc_frm.lazy:
+  path: '/lazy-test'
+  defaults:
+    _title: 'lazy'
+    _controller: '\Drupal\jc_frm\Controller\LazyController::lazy'
+    param: ''
+  requirements:
+    _access: 'TRUE'

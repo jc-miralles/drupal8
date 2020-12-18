@@ -1,0 +1,7 @@
+## YAML Template.
+name: JC MODULE FORMATION D 8
+description: Différentes donctions à voir
+type: module
+core: 8.x
+version: 8.x-1.0
+package: Jean Chris
