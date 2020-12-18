@@ -1,0 +1,18 @@
+uuid: 08d63492-e5af-4ed4-b624-3710252cc0f1
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Recette de cuisine'
+type: recette_de_cuisine
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

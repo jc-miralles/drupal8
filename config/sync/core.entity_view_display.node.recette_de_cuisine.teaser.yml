@@ -1,0 +1,32 @@
+uuid: efd287b1-1f73-4648-a1a1-9efc2ec9770d
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.recette_de_cuisine.body
+    - field.field.node.recette_de_cuisine.field_image
+    - node.type.recette_de_cuisine
+  module:
+    - text
+    - user
+id: node.recette_de_cuisine.teaser
+targetEntityType: node
+bundle: recette_de_cuisine
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_image: true
