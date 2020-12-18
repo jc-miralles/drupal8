@@ -6,7 +6,7 @@ id: dev
 label: Dev
 url: 'http://drupal8.jeanchris.fr'
 auth:
-  pid: anonymous
+  pid: basic_auth
   uuid: 2b8a7df2-fbed-4f82-acfa-91d69788eb08
   data:
     credential_provider: entity_share
