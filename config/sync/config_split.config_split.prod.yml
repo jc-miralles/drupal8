@@ -1,0 +1,16 @@
+uuid: 2a52a69d-b1cc-474a-ac5c-b15bceb559a6
+langcode: en
+status: false
+dependencies: {  }
+id: prod
+label: Prod
+description: ''
+folder: ../config/prod
+module: {  }
+theme: {  }
+blacklist: {  }
+graylist:
+  - system.site
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0
