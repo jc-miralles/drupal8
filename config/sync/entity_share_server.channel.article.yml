@@ -1,0 +1,15 @@
+uuid: 2b307f32-3474-4391-af3e-fb5a5d1760e4
+langcode: en
+status: true
+dependencies: {  }
+id: article
+label: Article
+channel_entity_type: node
+channel_bundle: article
+channel_langcode: und
+channel_filters: null
+channel_groups: null
+channel_sorts: {  }
+channel_searches: null
+authorized_users:
+  15ddec54-442f-429e-98cf-24020f52c6d1: 15ddec54-442f-429e-98cf-24020f52c6d1

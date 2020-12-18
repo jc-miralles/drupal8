@@ -1,0 +1,23 @@
+uuid: 6a9bfba1-d8f3-48ac-a9af-66cd38d74cfe
+langcode: en
+status: true
+dependencies: {  }
+id: article_config
+label: 'Article config'
+import_processor_settings:
+  changed_time:
+    weights:
+      process_entity: 100
+  default_data_processor:
+    weights:
+      is_entity_importable: -10
+      post_entity_save: 0
+      prepare_importable_entity_data: -100
+  entity_reference:
+    max_recursion_depth: -1
+    weights:
+      process_entity: 10
+  physical_file:
+    rename: false
+    weights:
+      process_entity: 0
